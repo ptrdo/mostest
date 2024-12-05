@@ -11,10 +11,10 @@ YEAR,VEP_SHARE,WON,PARTY,CANDIDATE
 1960,0.3270459,0,R,Richard Nixon
 1932,0.3267990,1,D,Franklin Roosevelt
 2012,0.3191482,1,D,Barack Obama
-2024,0.3159000,1,R,Donald Trump
+2024,0.3158890,1,R,Donald Trump
 2020,0.3109890,0,R,Donald Trump
 1988,0.3100921,1,R,George H.W. Bush
-2024,0.3065500,0,D,Kamala Harris
+2024,0.3065486,0,D,Kamala Harris
 1984,0.3028770,1,R,Ronald Reagan
 2016,0.3025992,0,D,Hillary Clinton
 1976,0.3009532,1,D,Jimmy Carter

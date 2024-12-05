@@ -1,7 +1,6 @@
-# mostest
-Most Votes for U.S. Presidential Candidates, 1920-2024, Adjusted to 2024 Population
+[OC] Most Votes for U.S. Presidential Candidates, 1920-2024, Adjusted to 2024 Population
 
-This charts the votes cast for U.S. presidential candidates as a share of the voting-eligible population during that election year, and then adjusted to a commensurate share of the voting-eligible population in 2024. 
+If historical elections occurred with a 2024 voting population, these could have been the results. This chart plots the votes cast for U.S. presidential candidates as a share of the voting-eligible population during that election year, and then adjusted to a commensurate share of the voting-eligible population of 2024. 
 
 Election data was aggregated from The Federal Election Commission archives, with corroboration and missing data derived from the American Presidency Project and Wikipedia. A working spreadsheet of the aggregation can be found in the links below. 
 
@@ -23,7 +22,17 @@ Worksheet of aggregated data:
 
 [https://docs.google.com/spreadsheets](https://docs.google.com/spreadsheets/d/1DSylwUb68x23Bn4Rl2iEis8sU_X9bRuSPe_Ta1-gNMQ/edit?usp=sharing)
 
+R code:
+
+[https://github.com/ptrdo/mostest](https://github.com/ptrdo/mostest)
+
 Final data:
+
+2024 Results per Cook Political Report (Thu, 05 Dec 2024 13:31:00 GMT)
+-  77,287,591 Donald Trump
+-  75,002,294 Kamala Harris
+-   2,946,201 Other
+- 155,236,086 Total
 
 Adjustment to 2024 population is a product of VEP_SHARE and 244,666,890 (2024 Voting-Eligible Population as estimated by University of Florida Election Lab). VEP_SHARE of 2024 candidates result from current vote counts as a proportion of VEP. 
 
@@ -41,10 +50,10 @@ Adjustment to 2024 population is a product of VEP_SHARE and 244,666,890 (2024 Vo
 |1960|0.3270459|0  |R    |Richard Nixon     |
 |1932|0.3267990|1  |D    |Franklin Roosevelt|
 |2012|0.3191482|1  |D    |Barack Obama      |
-|2024|0.3159000|1  |R    |Donald Trump      |
+|2024|0.3158890|1  |R    |Donald Trump      |
 |2020|0.3109890|0  |R    |Donald Trump      |
 |1988|0.3100921|1  |R    |George H.W. Bush  |
-|2024|0.3065500|0  |D    |Kamala Harris     |
+|2024|0.3065486|0  |D    |Kamala Harris     |
 |1984|0.3028770|1  |R    |Ronald Reagan     |
 |2016|0.3025992|0  |D    |Hillary Clinton   |
 |1976|0.3009532|1  |D    |Jimmy Carter      |
